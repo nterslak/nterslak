@@ -25,6 +25,7 @@ body {
     box-sizing: border-box;
     -ms-overflow-style: none;
     scrollbar-width: none;
-    background-color: #000000;
+    background-color: var(--black);
+    color: var(--white);
     height: 100%;
 }

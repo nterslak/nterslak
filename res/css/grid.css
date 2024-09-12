@@ -10,12 +10,12 @@ body {
 
 header {
     grid-area: header;
-    border-bottom: 1px solid var(--gray);
+    border-bottom: 2px solid var(--gray);
 }
 
 nav {
     grid-area: nav;
-    border-right: 1px solid var(--gray);
+    border-right: 2px solid var(--gray);
 }
 
 main {

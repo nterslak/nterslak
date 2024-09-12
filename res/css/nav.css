@@ -132,3 +132,9 @@ nav>div {
     outline: 1px solid var(--primaryColor);
     transform: scale(1.025);
 }
+
+nav hr {
+    margin: 0.75rem 0.5rem;
+    border: 1px solid var(--gray);
+    border-radius: 1px;
+}

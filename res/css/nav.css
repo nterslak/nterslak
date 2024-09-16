@@ -70,6 +70,7 @@ nav {
     grid-template-areas:
         "nav_main"
         "nav_settings";
+    overflow: auto;
 }
 
 nav>div {
@@ -78,6 +79,7 @@ nav>div {
 
 .nav_main {
     grid-area: nav_main;
+    overflow: auto;
 }
 
 .nav_settings {

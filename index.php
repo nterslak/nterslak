@@ -2,12 +2,8 @@
 <html lang="de">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nterslak</title>
-    <link rel="stylesheet" href="/res/css/main.css" />
-    <link rel="stylesheet" href="/res/css/grid.css" />
-    <link rel="stylesheet" href="/res/css/nav.css" />
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/res/html/head.html'; ?>
 </head>
 
 <body>

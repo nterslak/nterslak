@@ -1,0 +1,16 @@
+.category_container {
+    background-color: var(--gray);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.category_container h1 {
+    margin: 0;
+}
+
+a {
+    color: var(--primaryColor);
+    font-weight: bold;
+    text-decoration: none;
+}

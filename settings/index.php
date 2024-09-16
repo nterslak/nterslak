@@ -15,7 +15,7 @@
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/res/html/nav.html'; ?>
     <main></main>
     <style>
-    #nav_entry_home {
+    #nav_entry_settings {
         background-color: var(--primaryColor);
         border: 1px solid var(--primaryColor);
         color: var(--black);

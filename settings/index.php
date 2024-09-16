@@ -2,7 +2,7 @@
 <html lang="de">
 
 <head>
-    <title>Nterslak</title>
+    <title>Settings &CenterDot; Nterslak</title>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/res/html/head.html'; ?>
     <link rel="stylesheet" href="/settings/settings.css">
 </head>

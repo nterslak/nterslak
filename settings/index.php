@@ -56,11 +56,10 @@
         </div>
     </main>
     <style>
-    #nav_entry_settings {
-        background-color: var(--primaryColor);
-        border: 1px solid var(--primaryColor);
-        color: var(--black);
-    }
+        #nav_entry_settings {
+            background-color: var(--primaryColor);
+            color: var(--black);
+        }
     </style>
 </body>
 

@@ -122,12 +122,6 @@ nav>div {
     font-size: var(--subheadingSize);
 }
 
-.nav_active {
-    background-color: var(--primaryColor);
-    border: 1px solid var(--primaryColor);
-    color: var(--black);
-}
-
 .nav_entry:hover {
     outline: 1px solid var(--primaryColor);
     transform: scale(1.025);

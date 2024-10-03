@@ -98,7 +98,7 @@
 
                     foreach ($people as $person) {
                         echo '<tr>';
-                        echo '<td><a href="./edit?id=personid">' . htmlspecialchars($person['name']) . '</a></td>';
+                        echo '<td><a href="./person/?id=personid">' . htmlspecialchars($person['name']) . '</a></td>';
                         echo '<td>' . htmlspecialchars($person['email']) . '</td>';
                         echo '<td>' . htmlspecialchars($person['phone']) . '</td>';
                         echo '</tr>';

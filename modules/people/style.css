@@ -52,6 +52,12 @@ table {
     border-collapse: collapse;
 }
 
+table a {
+    color: var(--primaryColor);
+    text-decoration: none;
+    font-weight: bold;
+}
+
 th {
     font-size: var(--subheadingSize);
     position: sticky;

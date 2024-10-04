@@ -45,6 +45,11 @@
                         href="https://raw.githubusercontent.com/tailwindlabs/heroicons/master/LICENSE">MIT
                         license</a>)
                 </li>
+                <li>
+                    The Map is based on <a href="https://leafletjs.com/">Leaflet</a> (<a
+                        href="https://raw.githubusercontent.com/Leaflet/Leaflet/master/LICENSE">BSD-2-Clause
+                        license</a>)
+                </li>
             </ul>
         </div>
         <div class="category_container">

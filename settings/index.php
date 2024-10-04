@@ -50,6 +50,16 @@
                         href="https://raw.githubusercontent.com/Leaflet/Leaflet/master/LICENSE">BSD-2-Clause
                         license</a>)
                 </li>
+                <li>
+                    Map tiles (the map images you see), are provided by:
+                    <ul>
+                        <li><a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> (<a
+                                href="https://www.openstreetmap.org/copyright">ODbL license</a>)</li>
+                        and
+                        <li><a href="https://www.esri.com/en-us/home">Esri</a> (<a
+                                href="https://www.esri.com/en-us/legal/overview">Esri License</a>)</li>
+                    </ul>
+                </li>
             </ul>
         </div>
         <div class="category_container">
@@ -57,10 +67,10 @@
         </div>
     </main>
     <style>
-        #nav_entry_settings {
-            background-color: var(--primaryColor);
-            color: var(--black);
-        }
+    #nav_entry_settings {
+        background-color: var(--primaryColor);
+        color: var(--black);
+    }
     </style>
 </body>
 

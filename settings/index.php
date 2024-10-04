@@ -60,6 +60,12 @@
                                 href="https://www.esri.com/en-us/legal/overview">Esri License</a>)</li>
                     </ul>
                 </li>
+                <li>
+                    The plugin that clusters the markers on the map is <a
+                        href="https://github.com/Leaflet/Leaflet.markercluster">Leaflet.markercluster</a> (<a
+                        href="https://raw.githubusercontent.com/Leaflet/Leaflet.markercluster/master/LICENSE">MIT
+                        License</a>)
+                </li>
             </ul>
         </div>
         <div class="category_container">

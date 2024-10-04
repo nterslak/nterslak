@@ -13,12 +13,18 @@ var satelliteLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/se
 // Default layer
 osmLayer.addTo(map);
 
+// Marker grouping
+var markerGroup = L.markerClusterGroup();
+// var markerGroup = L.markerClusterGroup({ singleMarkerMode: true });
+map.addLayer(markerGroup);
+
 // Functions
 function initializeMap() {
     // Set markers
     for (var i = 0; i < markers.length; i++) {
         var marker = markers[i];
-        L.marker([marker.lat, marker.lon]).addTo(map).bindPopup(marker.title);
+        // L.marker([marker.lat, marker.lon]).addTo(map).bindPopup(marker.title);
+        markerGroup.addLayer(L.marker([marker.lat, marker.lon]).bindPopup(marker.title));
     }
     // Calculate view position and zoom level
     var bounds = new L.LatLngBounds();

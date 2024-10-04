@@ -18,13 +18,57 @@ main {
     padding: 0.5rem;
 }
 
-.person-main {
-    grid-area: person-table;
-    overflow: auto;
-}
-
 .person-name {
     padding-top: 0.5rem;
     font-size: 2rem;
     color: var(--white);
+}
+
+.person-main {
+    grid-area: person-table;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr min-content;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "person-info"
+        "person-footer";
+}
+
+.person-info {
+    grid-area: person-info;
+    padding-top: 0.5rem;
+}
+
+.person-footer {
+    border-top: 1px solid var(--gray);
+    grid-area: person-footer;
+    text-align: center;
+    padding: 1rem;
+}
+
+.person-footer a {
+    color: var(--primaryColor);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: var(--subheadingSize);
+}
+
+/* Masonry layout */
+
+.masonry {
+    column-count: 2;
+    column-gap: 0.75rem;
+}
+
+.masonry>* {
+    background-color: var(--gray);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 0 0.5rem;
+    width: calc(100% - 1rem);
+    padding: 0.5rem;
 }

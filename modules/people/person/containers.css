@@ -1,0 +1,53 @@
+/* All containers */
+
+.info_container {
+    position: relative;
+}
+
+.info_container h2 {
+    margin: 0;
+    color: var(--white);
+}
+
+.info_container p {
+    margin: 0.25rem 0 0;
+}
+
+.info_container-actions {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    height: fit-content;
+    width: fit-content;
+}
+
+.info_container-actions a {
+    color: #888;
+    margin-left: 0.25rem;
+    display: inline-block;
+    transition: color 0.2s;
+}
+
+.info_container-actions a:hover {
+    color: var(--primaryColor);
+}
+
+.info_container-actions a svg {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+/* Adress containers */
+
+.info_adress-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--primaryColor);
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+}
+
+/* Phone containers */
+
+/*  */

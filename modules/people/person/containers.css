@@ -5,12 +5,12 @@
 }
 
 .info_container h2 {
-    margin: 0;
     color: var(--white);
+    margin: 0 0 0.25rem 0;
 }
 
 .info_container p {
-    margin: 0.25rem 0 0;
+    margin: 0;
 }
 
 .info_container-actions {
@@ -37,9 +37,7 @@
     width: 1.5rem;
 }
 
-/* Adress containers */
-
-.info_adress-title {
+.info-title {
     font-size: 1rem;
     font-weight: 600;
     color: var(--primaryColor);
@@ -48,6 +46,21 @@
     right: 0.5rem;
 }
 
+/* Adress containers */
+
+
 /* Phone containers */
 
-/*  */
+/* Notes containers */
+
+.info_notes textarea {
+    width: calc(100% - 1rem);
+    resize: vertical;
+    border: 1px dashed var(--primaryColor);
+    border-width: 1px 0;
+    background: none;
+    color: var(--white);
+    font-size: 1rem;
+    font-family: var(--fontFamily);
+    padding: 0.5rem;
+}

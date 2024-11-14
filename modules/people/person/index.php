@@ -19,7 +19,7 @@
             <div class="person-info masonry">
                 <div class="info_container info_adress">
                     <h2>Adress</h2>
-                    <p class="info_adress-title">
+                    <p class="info-title">
                         Heimadresse
                     </p>
                     <p>
@@ -39,12 +39,10 @@
                         </a>
                     </div>
                 </div>
-                <p>Est eius impedit quo, assumenda similique cumque incidunt perspiciatis expedita aspernatur porro.
-                    Perferendis dolores nobis, voluptas saepe delectus odio hic. Odio minima a ab qui at eum neque
-                    laboriosam ea?</p>
-                <p>Eaque eos alias itaque nesciunt quasi cupiditate odio, sed aliquam perspiciatis? Blanditiis ab,
-                    sapiente suscipit esse nesciunt rem iure aperiam voluptatum omnis voluptas porro ut non! Facilis
-                    iste temporibus vero.</p>
+                <div class="info_container info_notes">
+                    <h2>Notes</h2>
+                    <textarea name="" id=""></textarea>
+                </div>
                 <p>Repudiandae beatae consequuntur error fugiat.</p>
                 <p>Corrupti modi eveniet rerum tenetur nobis natus unde eligendi obcaecati dolores cupiditate quo, quam
                     impedit repudiandae nostrum suscipit nisi iste quod minima et? Deserunt placeat corrupti porro non

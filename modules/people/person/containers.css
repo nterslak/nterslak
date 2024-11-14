@@ -64,3 +64,23 @@
     font-family: var(--fontFamily);
     padding: 0.5rem;
 }
+
+/* Dates container */
+
+.info_dates-table {
+    border-collapse: collapse;
+}
+
+.info_dates-table tr:not(:last-child) {
+    border-bottom: 1px dashed var(--primaryColor);
+}
+
+.info_dates-table td:nth-child(1) {
+    width: 100%;
+}
+
+.info_dates-table td:nth-child(2) {
+    text-align: right;
+    font-weight: 600;
+    color: var(--primaryColor);
+}
